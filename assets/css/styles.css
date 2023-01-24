@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pagar {
+  text-align: center;
+  font-weight: 600;
+  font-size: 60px;
+  color: #006A11;
+}
+
+.pago {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.headerNosotros, .mainNosotros {
+  text-align: center;
+  align-items: center;
+}
+
+.mainNosotros {
+  color: #006A11;
+}
+
+.nosP {
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: #FCFCFC;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.navbar li {
+  position: relative;
+}
+.navbar a {
+  display: block;
+  text-decoration: none;
+  color: #006A11;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.logo {
+  width: 100px;
+  margin: 10px auto;
+  left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headerInicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.headerInicio div {
+  text-align: center;
+  font-weight: 0;
+  font-size: 30px;
+  color: #006A11;
+}
+.headerInicio h2 {
+  text-align: center;
+}
+
+.fotoVaca {
+  width: 400px;
+  height: 100x;
+  text-align: center;
+}
+
+.mainIndex {
+  font-size: 20px;
+  color: #006A11;
+  text-align: center;
+}
+
+.headerContactos {
+  color: #006A11;
+  text-align: center;
+  font-weight: 100;
+  font-size: 35px;
+}
+
+.information {
+  width: 30px;
+  color: #006A11;
+}
+
+.phone {
+  width: 30px;
+  color: #006A11;
+}
+
+.mail {
+  width: 30px;
+  color: #006A11;
+}
+
+.mapa {
+  width: 400px;
+}
+
+.headerProductos {
+  align-items: center;
+  text-align: center;
+  font-weight: 300;
+  font-size: 60px;
+  color: #006A11;
+}
+
+.pro {
+  color: #006A11;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.s {
+  color: #006A11;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.lite {
+  color: #006A11;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.titulo, .tituloH3, h6 {
+  font-weight: 600;
+  font-size: 50px;
+  color: #006A11;
+}
+
+.tituloH3, h6 {
+  font-size: 40px;
+}
+
+p {
+  display: inline;
+}
+
+title {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    justify-content: right;
+  }
+  .navbar ul {
+    position: fixed;
+    text-align: right;
+    flex-direction: column;
+    background-color: #FCFCFC;
+    width: 250px;
+    height: 100vh;
+    justify-content: start;
+    padding-top: 60px;
+    align-items: center;
+    right: -300px;
+    transition: 0.2s;
+  }
+  .navbar ul:hover {
+    right: 0;
+  }
+  .headerInicioDiv h1 {
+    text-align: center;
+    font-weight: 0;
+    font-size: 30px;
+  }
+  .headerInicioDiv h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .fotoVaca {
+    width: 400px;
+    height: 300px;
+  }
+  .mainIndex {
+    text-align: center;
+    font-size: 20px;
+    color: #006A11;
+  }
+}

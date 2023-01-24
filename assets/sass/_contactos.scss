@@ -1,0 +1,23 @@
+.headerContactos {
+    color:$vrd;
+    text-align: center;
+    font-weight: 100;
+    font-size: 35px;
+    }
+    
+.information {
+   @include icono  ;
+    }
+    
+.phone {
+    @include icono  ;
+    }
+    
+.mail {
+    @include icono  ;
+    }
+    
+ .mapa {
+    width: 400px;
+    }
+    

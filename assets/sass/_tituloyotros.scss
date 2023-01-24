@@ -1,0 +1,22 @@
+
+
+.titulo  {
+    font-weight:  $fontH3;
+    font-size: 50px;
+    color:$vrd;
+}
+.tituloH3  {
+ @extend .titulo;
+ font-size: 40px;
+}
+p{
+ display: inline;
+ }
+    
+h6{
+@extend .tituloH3
+}
+
+title{
+display: none;
+}

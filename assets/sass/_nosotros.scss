@@ -1,0 +1,14 @@
+.headerNosotros {
+    text-align: center;
+    align-items: center;
+    }
+    
+    
+    .mainNosotros {
+    @extend .headerNosotros;
+    color:$vrd;
+     }
+
+.nosP {
+font-size: 20px;
+}

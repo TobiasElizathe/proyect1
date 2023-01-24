@@ -1,0 +1,33 @@
+
+.navbar {
+    background-color: $clbg ;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    flex-wrap: wrap;
+    
+         ul{
+            list-style: none;
+            display: flex;
+            justify-content: end; 
+            }  
+                li{
+                position: relative;   
+                }
+                    a{
+                    display: block;
+                    text-decoration: none;
+                    color:$vrd;
+                    font-weight:  $fontH3;
+                    font-size: 30px;
+                    padding: 30px;
+                    }
+}
+
+.logo{
+    width: 100px;
+    margin: 10px auto; 
+    left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    }

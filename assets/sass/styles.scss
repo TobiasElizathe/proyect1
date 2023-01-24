@@ -1,0 +1,21 @@
+$vrd : #006A11 ;
+$clbg : #FCFCFC ;
+$fontH3 : 600 ;
+@mixin icono {
+    width: 30px;
+    color: $vrd ;  
+}
+@mixin caravana {
+    color:$vrd;
+    text-align: center;
+    padding-top: 20px;
+}
+@import "reset";
+@import "pagar" ;
+@import "nosotros" ;
+@import "navbar" ;
+@import "index" ;
+@import "contactos" ;
+@import "caravanas" ;
+@import "tituloyotros";
+@import "media";
